@@ -1,0 +1,24 @@
+{
+  "main": {
+    "browserName": "Chrome",
+    "implicitlyWaitDelay": 10,
+    "explicitlyWaitDelay": 15,
+    "language": "ru",
+    "pathToDriver": {
+      "geckoLinux": "../../../resources/drivers/linux64_geckodriver",
+      "chromeLinux": "../../../resources/drivers/linux64_chromedriver",
+      "geckoWin32": "../../../resources/drivers/win32_geckodriver.exe",
+      "geckoWin64": "../../../resources/drivers/win64_geckodriver.exe",
+      "chromeWin32": "../../../resources/drivers/win32_chromedriver.exe"
+    }
+  },
+
+  "steam": {
+    "url": {
+      "mainPage": "http://store.steampowered.com/",
+      "actionPage": "http://store.steampowered.com/tag/ru/%D0%AD%D0%BA%D1%88%D0%B5%D0%BD/#p=0&tab=PopularNewReleases",
+      "discountPage": "http://store.steampowered.com/tag/ru/%D0%AD%D0%BA%D1%88%D0%B5%D0%BD/#p=0&tab=Discounts",
+      "aboutPage": "http://store.steampowered.com/about"
+    }
+  }
+}
